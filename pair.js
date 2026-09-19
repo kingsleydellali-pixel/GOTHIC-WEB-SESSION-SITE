@@ -17,7 +17,7 @@ const router = express.Router();
 
 const BOT_NAME = 'GOTHIC MD BOT V6';
 const SESSION_PREFIX = process.env.SESSION_PREFIX || 'GOTHIC-MD:~';
-const SUPPORT_LINK = 'https://wa.me/message/YNDA2RFTE35LB1';
+const SUPPORT_LINK = 'https://wa.me/message/233535502036';
 
 function removeFile(filePath) {
     try {
@@ -89,6 +89,8 @@ Paste it into the SESSION variable of ANY Baileys WhatsApp bot (GOTHIC MD, or yo
 
 For any issues, reach us via:
 ${SUPPORT_LINK}
+
+> by KINGSLEY-XMD TECH 
 
 Don't forget to sleep 😴, for even the relentless must recharge ⚡.
 
