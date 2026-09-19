@@ -85,7 +85,7 @@ router.get('/', async (req, res) => {
 
 Do NOT share this session_id with anyone.
 
-Paste it into the SESSION variable of ANY Baileys WhatsApp bot (GOTHIC MD, or your own) — it will be used for authentication.
+Paste it into the SESSION variable of the WhatsApp bot (GOTHIC MD) — it will be used for authentication.
 
 For any issues, reach us via:
 ${SUPPORT_LINK}
