@@ -1,0 +1,28 @@
+{
+    "name": "GOTHIC MD BOT V6",
+    "description": "Session generator for GOTHIC MD BOT V6 — works with any Baileys WhatsApp bot",
+    "logo": "https://i.ibb.co/zVyCpvQX/ERFAN-MD.jpg",
+    "repository": "https://github.com/kingsleydellali-pixel/GOTHIC-WEB-SESSION-SITE",
+    "keywords": ["GOTHIC-MD", "BAILEYS", "SESSION"],
+    "success_url": "/",
+    "buildpacks": [
+        { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+    ],
+    "env": {
+        "PORT": {
+            "description": "Port for web app. 3000, 4000, 5000... any!",
+            "value": "5000",
+            "required": false
+        },
+        "MESSAGE": {
+            "description": "This site is only for session generating",
+            "value": "GOTHIC MD BOT V6 — Session Generator",
+            "required": false
+        },
+        "SESSION_PREFIX": {
+            "description": "Prefix attached to the session id sent to WhatsApp",
+            "value": "GOTHIC-MD:~",
+z            "required": false
+        }
+    }
+}
